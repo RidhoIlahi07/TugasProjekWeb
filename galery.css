@@ -1,0 +1,37 @@
+.utama{
+	border-radius: 10px;
+	height: 285px;
+	padding: 10px;
+	margin-left: 145px;
+	margin-right: 145px;
+  background-color:#c0d3de;
+}
+.gallery {
+  margin: 10px;
+  border: 2px solid #ff9999;
+  float: left;
+  width: 180px;
+  border-radius: 10px;
+}
+
+.gallery:hover {
+  border: 2px solid red;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.text{
+	margin-left: 145px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 150%;
+}
