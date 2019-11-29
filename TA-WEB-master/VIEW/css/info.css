@@ -1,0 +1,94 @@
+body {}
+
+nav {
+  float: left;
+  width: 50%;
+  height: 225px;
+  background: #ccc;
+  padding: 50px;
+  padding-top: 210px;
+  text-align: center;
+  font-size: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.article {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: #f1f1f1;
+  height: 225px;
+}
+
+.aktiv {
+  background-color: none;
+  float: left;
+  padding: 20px;
+  width: 50%;
+  height: 225px;
+}
+
+.article:hover {
+  background-color: #04507b;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tulisan {
+  font-size: 50px;
+  text-align: center;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  background-color: #04507b;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.art_utama {
+  float: left;
+  padding: 20px;
+  width: 67%;
+  background-color: #04507b;
+  height: 225px;
+  color: white;
+}
+
+.aktiv_utama {
+  background-color: none;
+  float: left;
+  padding: 20px;
+  width: 50%;
+  height: 225px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.p {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+}

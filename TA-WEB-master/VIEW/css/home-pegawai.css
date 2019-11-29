@@ -1,0 +1,466 @@
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, sans-serif;
+}
+
+.header {
+    background-color: #3c8dbc;
+    height: 13%;
+    border-top: 5px solid #04507b;
+    color: black;
+    position: fixed;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #222d31;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+
+}
+
+ul {
+    text-decoration: none;
+    color: white;
+}
+
+.li a {
+    display: block;
+    color: whitesmoke;
+    padding: 30px 80px;
+    text-decoration: none;
+
+}
+
+.li a:hover {
+    background-color: #1c2125;
+    color: whitesmoke;
+    width: 100%
+}
+
+.footer {
+    background: #00c0ef;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    padding: 1%;
+    box-shadow: 1px -0.5px #00c0ef;
+
+
+}
+
+.dp {
+    text-align: right;
+    padding-right: 7%;
+    padding-top: 1%;
+}
+
+.articlee {
+    float: left;
+    margin-left: -78px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    width: 107%;
+    background-color: white;
+    height: 700px;
+    text-decoration: none;
+}
+
+.article {
+    float: left;
+    margin-left: -78px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    width: 107%;
+    background-color: white;
+    height: 100%;
+    text-decoration: none;
+}
+
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.listUL {
+    list-style-type: none;
+    float: right;
+    margin-top: 40px;
+}
+
+.user a {
+    margin-top: 30px;
+    margin-right: 40px;
+    float: right;
+    padding-left: 1%;
+    text-decoration: none;
+    color: white;
+}
+
+.user1 a {
+    margin-top: 15px;
+    margin-right: 50px;
+    float: right;
+    padding-left: 0.5%;
+    text-decoration: none;
+    color: white;
+
+}
+
+.logo {
+    margin-top: 10px;
+    margin-right: 5px;
+    float: right;
+    padding-left: -1%;
+}
+
+.logoo {
+    margin-top: 10px;
+    float: left;
+    padding-left: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    width: 20%;
+    margin: 0px auto;
+}
+
+.tabel1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #000000;
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 15px;
+    margin: 80px;
+}
+
+.td {
+    width: 200px;
+
+}
+
+.tabel1 tr th {
+    background: blue;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+
+.kotak {
+    width: 50%;
+    margin: auto 20px;
+    background: #2ac92a;
+    border: 2px;
+}
+
+
+.blue {
+    text-decoration: none;
+    background: #218fff;
+    color: white;
+    font-size: 11pt;
+    text-align: left;
+    border: none;
+    padding: 5px 20px;
+}
+
+.blue:hover {
+    background: #0165cb;
+}
+
+.red {
+    text-decoration: none;
+    background: #ff1731;
+    color: white;
+    font-size: 11pt;
+    border: none;
+    padding: 5px 20px;
+}
+
+.red:hover {
+    background: #cb0017;
+}
+
+
+.judul_data {
+    border-top: 5px solid #35A9DB;
+    color: black;
+    border-bottom: 5px solid #35A9DB;
+    text-align: left;
+    padding: 30px 20px;
+    font-size: 20px;
+}
+
+.tombol_daftar {
+    background-color: #35A9DB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80%;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+/*profil*/
+
+.judul_data1 {
+    border-top: 5px solid #35A9DB;
+    color: black;
+    border-bottom: 5px solid #35A9DB;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 30px;
+}
+
+.tombol-edit {
+    width: 50%;
+    border: none;
+    float: left;
+    text-align: center;
+    background: #da336b;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 18px;
+    color: white;
+    font-size: 17px;
+
+}
+
+.parent {
+    display: flex;
+}
+
+.narrow {
+    width: 200px;
+
+}
+
+.wide {
+    flex: 1;
+    background: #f1eeee;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 30px;
+    height: 100%;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    background-color: #04507b;
+    border-radius: 50%;
+}
+
+.isi {
+    color: black;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    text-align: left;
+    padding: 15px 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-control {
+    display: block;
+    width: 90%;
+    margin-left: 40px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/*update*/
+
+.input-controll {
+    display: block;
+    width: 90%;
+    margin-left: 40px;
+    height: 80px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.label-control {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.masukan-gambar {
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 20px;
+}
+
+.page-header {
+    margin: 30px 0 0px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.bt {
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+/*Edit-profil*/
+
+.kotak-data {
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    color: black;
+    font-size: 17px;
+}
+
+.tombol-form {
+    float: left;
+    text-align: left;
+    background: none;
+    padding-bottom: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 18px;
+    color: black;
+    width: 200px;
+    font-size: 25px;
+}
+
+.tombol-form1 {
+    width: 600px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-left: 18px;
+    color: black;
+    font-size: 25px;
+
+}
+
+.form_login {
+    width: 100%;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.tombol-simpan {
+    width: 13%;
+    border: none;
+    float: left;
+    text-align: center;
+    background: #00aeef;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 768px;
+    color: white;
+    font-size: 17px;
+}
+
+.blue1 {
+    text-decoration: none;
+    background: #218fff;
+    color: white;
+    font-size: 11pt;
+    width: 20%;
+    float: left;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+
+.blue1:hover {
+    background: #0165cb;
+}
+
+.red1 {
+    text-decoration: none;
+    background: #ff1731;
+    color: white;
+    font-size: 11pt;
+    width: 20%;
+    float: right;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+
+.red1:hover {
+    background: #cb0017;
+}
+
+.tdd {
+    width: 200px;
+}
+
+.form11 {
+    clear: both;
+}

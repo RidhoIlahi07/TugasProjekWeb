@@ -1,0 +1,42 @@
+.blue {
+    text-decoration: none;
+    background: #218fff;
+    color: white;
+    font-size: 11pt;
+    text-align: left;
+    border: none;
+    padding: 5px 20px;
+}
+
+.blue:hover {
+    background: #0165cb;
+}
+
+.red {
+    text-decoration: none;
+    background: #ff1731;
+    color: white;
+    font-size: 11pt;
+    border: none;
+    padding: 5px 20px;
+}
+
+.red:hover {
+    background: #cb0017;
+}
+
+.tabel1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #000000;
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 15px;
+    margin: 80px;
+}
+
+.tabel1 tr th {
+    background: blue;
+    color: #fff;
+    padding: 15px 20px;
+}

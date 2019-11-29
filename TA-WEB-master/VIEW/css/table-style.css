@@ -1,0 +1,71 @@
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid #f2f5f7;
+    margin: 80px auto;
+}
+
+.table1 tr th {
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+
+}
+
+.table1,
+th,
+td {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.article {
+
+    float: left;
+    margin-left: 100px;
+    width: 87%;
+    background-color: #f1f1f1;
+    height: 1000px;
+    text-decoration: none;
+}
+
+/* .article:hover {
+    background-color: #04507b; 
+    color: white;
+    -webkit-transition: all 0.3s ease;
+    } */
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tombol_daftar {
+    background-color: #35A9DB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.judul_data {
+    border-top: 5px solid #35A9DB;
+    color: black;
+    border-bottom: 5px solid #35A9DB;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 30px;
+}
